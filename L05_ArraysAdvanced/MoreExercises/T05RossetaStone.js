@@ -12,6 +12,7 @@ function solve(arr) {
 
     templateCol += counter;
     counter = 0;
+ 
     let messageMatrix = [];
     let messageRows = arr.length - rowsTemplate - 1;
     let messageCol = 0;
