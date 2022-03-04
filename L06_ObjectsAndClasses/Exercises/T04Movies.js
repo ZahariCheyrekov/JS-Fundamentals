@@ -28,6 +28,7 @@ function movieDirectors(array) {
                 let movie = contains(name1);
                 movie.director = command.slice(command.indexOf('directedBy') + 1, command.length).join(' ');
             }
+      
         } else if (command.includes('onDate')) {
             let name2 = command.slice(0, command.indexOf('onDate')).join(' ');
 
