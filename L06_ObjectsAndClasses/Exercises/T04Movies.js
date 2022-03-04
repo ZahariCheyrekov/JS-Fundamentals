@@ -38,5 +38,6 @@ function movieDirectors(array) {
             }
         }
     }
+    
     movies.forEach(m => m.director != null && m.name != null && m.date != null ? console.log(JSON.stringify(m)) : null);
 }
