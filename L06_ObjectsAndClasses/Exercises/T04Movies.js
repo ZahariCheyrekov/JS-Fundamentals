@@ -21,6 +21,7 @@ function movieDirectors(array) {
         if (command.includes('addMovie')) {
             let name = command.slice(1, command.length).join(' ');
             movies.push(new Movie(name, null, null));
+       
         } else if (command.includes('directedBy')) {
             let name1 = command.slice(0, command.indexOf('directedBy')).join(' ');
 
