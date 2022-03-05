@@ -4,6 +4,7 @@ function solve(inputs) {
     let commentsByArticle = {};
 
     for (let input of inputs) {
+     
         if (input.startsWith('user ')) {
             let user = input.split(' ')[1];
             users.push(user);
