@@ -26,9 +26,11 @@ function solve(inputs) {
     let sortedCommentsKeys = Object.keys(commentsByArticle).sort((a, b) => commentsByArticle[b].length - commentsByArticle[a].length);
 
     for (const article of sortedCommentsKeys) {
+       
         console.log(`Comments on ${article}`);
         let comments = commentsByArticle[article];
         comments.sort((a, b) => a.user.localeCompare(b.user));
+       
         for (let comment of comments) {
             console.log(`--- From user ${comment.user}: ${comment.title} - ${comment.content}`);
         }
