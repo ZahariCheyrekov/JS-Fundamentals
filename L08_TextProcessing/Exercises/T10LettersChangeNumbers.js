@@ -8,7 +8,7 @@ function sovle(str) {
     }
 
     function getPosition(l) {
-        return alphabet.indexOf(l.toLowerCase()) + 1
+        return alphabet.indexOf(l.toLowerCase()) + 1;
     }
 
     function getData(str) {
