@@ -30,6 +30,7 @@ function sovle(str) {
         isUpperCase(first)
             ? number = actions.divide(number, getPosition(first))
             : number = actions.multiply(number, getPosition(first));
+       
         isUpperCase(last)
             ? number = actions.subtract(number, getPosition(last))
             : number = actions.concat(number, getPosition(last));
