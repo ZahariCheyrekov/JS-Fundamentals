@@ -36,5 +36,6 @@ function sovle(str) {
             : number = actions.concat(number, getPosition(last));
 
         return a += number;
+    
     }, 0).toFixed(2);
 }
