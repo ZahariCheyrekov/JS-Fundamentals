@@ -4,7 +4,7 @@ function sovle(str) {
     const alphabet = "abcdefghijklmnopqrstuvwxyz".split('');
 
     function isUpperCase(l) {
-        return l === l.toUpperCase()
+        return l === l.toUpperCase();
     }
 
     function getPosition(l) {
