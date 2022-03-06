@@ -1,6 +1,6 @@
 function solve(arr) {
 
-    const vowelCodes = [65, 69, 73, 79, 85, 97, 101, 105, 111, 117]
+    const vowelCodes = [65, 69, 73, 79, 85, 97, 101, 105, 111, 117];
     let concatStr = arr[0] + arr[1];
     let index = -1;
 
