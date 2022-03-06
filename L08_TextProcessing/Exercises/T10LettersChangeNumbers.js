@@ -12,7 +12,7 @@ function sovle(str) {
     }
 
     function getData(str) {
-        let data = str.split('')
+        let data = str.split('');
 
         return [data.shift(), data.pop(), Number(data.join(''))];
     }
