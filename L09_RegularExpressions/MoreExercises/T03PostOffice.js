@@ -41,6 +41,7 @@ function solve(input) {
     thirdPart = thirdPart.split(' ');
 
     for (let letter of capitalLetters) {
+       
         for (let word of thirdPart) {
             if (letter === word[0] && word.length === myMap.get(letter)) {
                 console.log(word);
