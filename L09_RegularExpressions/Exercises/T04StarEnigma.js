@@ -7,7 +7,6 @@ function solve(input) {
 
     for (let i = 0; i < msgCount; i++) {
 
-
         let line = input[i];
         let decryptKey = line.match(/[star]/gi) && line.match(/[star]/gi).length;
         let decryptedMsg = [];
