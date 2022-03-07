@@ -4,6 +4,7 @@ function solve(input) {
     let date;
 
     while ((date = regex.exec(input)) !== null) {
+       
         let day = date.groups.day;
         let month = date.groups.month;
         let year = date.groups.year;
