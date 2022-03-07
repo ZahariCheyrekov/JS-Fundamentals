@@ -1,4 +1,5 @@
 function solve(input) {
+   
     input = input.join('');
 
     let [firstPart, secondPart, thirdPart] = input.split('|');
