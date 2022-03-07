@@ -2,6 +2,7 @@ function solve(input) {
 
     let msgCount = input.shift();
     let pattern = /@(?<planetName>[A-Za-z]+)([^@\-:!>]*):[\d]+([^@\-:!>]*)!(?<attackType>[AD])!([^@\-:!>]*)\->[\d]+([^@\-:!>]*)/;
+   
     let attacked = [];
     let destroyed = [];
 
