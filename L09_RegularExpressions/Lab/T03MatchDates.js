@@ -1,7 +1,6 @@
 function solve(input) {
    
     let regex = /\b(?<day>[\d]{2})(?<separator>[-.\/])(?<month>[A-Z][a-z]{2})\2(?<year>[\d]{4})\b/g;
-
     let date;
 
     while ((date = regex.exec(input)) !== null) {
