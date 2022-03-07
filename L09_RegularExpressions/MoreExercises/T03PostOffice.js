@@ -23,7 +23,8 @@ function solve(input) {
     let unique = [];
 
     for (let combination of lettersAndLengths) {
-        let [letterAsciiCode, length] = combination.split(':');
+       
+       let [letterAsciiCode, length] = combination.split(':');
         letterAsciiCode = String.fromCharCode(letterAsciiCode);
 
         if (!unique.includes(letterAsciiCode)) {
