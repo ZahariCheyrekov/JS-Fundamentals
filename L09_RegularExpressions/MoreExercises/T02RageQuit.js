@@ -2,6 +2,7 @@ function solve(input) {
 
     let series = input[0].split(/[0-9]+/).filter((x) => x != '');
     let repeaters = input[0].split(/[^0-9]+/).filter((x) => x != '');
+    
     let result = '';
 
     for (let i = 0; i < series.length; i++) {
